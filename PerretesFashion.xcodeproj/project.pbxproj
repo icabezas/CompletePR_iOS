@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1E7A20204DCDC6007A8FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A1F204DCDC6007A8FDC /* AppDelegate.swift */; };
+		3A1E7A22204DCDC6007A8FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A21204DCDC6007A8FDC /* ViewController.swift */; };
+		3A1E7A25204DCDC6007A8FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E7A23204DCDC6007A8FDC /* Main.storyboard */; };
+		3A1E7A28204DCDC6007A8FDC /* PerretesFashion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A26204DCDC6007A8FDC /* PerretesFashion.xcdatamodeld */; };
+		3A1E7A2A204DCDC6007A8FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E7A29204DCDC6007A8FDC /* Assets.xcassets */; };
+		3A1E7A2D204DCDC6007A8FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E7A2B204DCDC6007A8FDC /* LaunchScreen.storyboard */; };
+		3A1E7A38204DCDC7007A8FDC /* PerretesFashionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A37204DCDC7007A8FDC /* PerretesFashionTests.swift */; };
+		3A1E7A43204DCDC7007A8FDC /* PerretesFashionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A42204DCDC7007A8FDC /* PerretesFashionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A1E7A34204DCDC7007A8FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A1E7A14204DCDC6007A8FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1E7A1B204DCDC6007A8FDC;
+			remoteInfo = PerretesFashion;
+		};
+		3A1E7A3F204DCDC7007A8FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A1E7A14204DCDC6007A8FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A1E7A1B204DCDC6007A8FDC;
+			remoteInfo = PerretesFashion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A1E7A1C204DCDC6007A8FDC /* PerretesFashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerretesFashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1E7A1F204DCDC6007A8FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A1E7A21204DCDC6007A8FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A1E7A24204DCDC6007A8FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A1E7A27204DCDC6007A8FDC /* PerretesFashion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerretesFashion.xcdatamodel; sourceTree = "<group>"; };
+		3A1E7A29204DCDC6007A8FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A1E7A2C204DCDC6007A8FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A1E7A2E204DCDC6007A8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1E7A33204DCDC7007A8FDC /* PerretesFashionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerretesFashionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1E7A37204DCDC7007A8FDC /* PerretesFashionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerretesFashionTests.swift; sourceTree = "<group>"; };
+		3A1E7A39204DCDC7007A8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1E7A3E204DCDC7007A8FDC /* PerretesFashionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerretesFashionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1E7A42204DCDC7007A8FDC /* PerretesFashionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerretesFashionUITests.swift; sourceTree = "<group>"; };
+		3A1E7A44204DCDC7007A8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1E7A19204DCDC6007A8FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1E7A30204DCDC7007A8FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1E7A3B204DCDC7007A8FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1E7A13204DCDC6007A8FDC = {
+			isa = PBXGroup;
+			children = (
+				3A1E7A1E204DCDC6007A8FDC /* PerretesFashion */,
+				3A1E7A36204DCDC7007A8FDC /* PerretesFashionTests */,
+				3A1E7A41204DCDC7007A8FDC /* PerretesFashionUITests */,
+				3A1E7A1D204DCDC6007A8FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1E7A1D204DCDC6007A8FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E7A1C204DCDC6007A8FDC /* PerretesFashion.app */,
+				3A1E7A33204DCDC7007A8FDC /* PerretesFashionTests.xctest */,
+				3A1E7A3E204DCDC7007A8FDC /* PerretesFashionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1E7A1E204DCDC6007A8FDC /* PerretesFashion */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E7A1F204DCDC6007A8FDC /* AppDelegate.swift */,
+				3A1E7A21204DCDC6007A8FDC /* ViewController.swift */,
+				3A1E7A23204DCDC6007A8FDC /* Main.storyboard */,
+				3A1E7A29204DCDC6007A8FDC /* Assets.xcassets */,
+				3A1E7A2B204DCDC6007A8FDC /* LaunchScreen.storyboard */,
+				3A1E7A2E204DCDC6007A8FDC /* Info.plist */,
+				3A1E7A26204DCDC6007A8FDC /* PerretesFashion.xcdatamodeld */,
+			);
+			path = PerretesFashion;
+			sourceTree = "<group>";
+		};
+		3A1E7A36204DCDC7007A8FDC /* PerretesFashionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E7A37204DCDC7007A8FDC /* PerretesFashionTests.swift */,
+				3A1E7A39204DCDC7007A8FDC /* Info.plist */,
+			);
+			path = PerretesFashionTests;
+			sourceTree = "<group>";
+		};
+		3A1E7A41204DCDC7007A8FDC /* PerretesFashionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E7A42204DCDC7007A8FDC /* PerretesFashionUITests.swift */,
+				3A1E7A44204DCDC7007A8FDC /* Info.plist */,
+			);
+			path = PerretesFashionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1E7A1B204DCDC6007A8FDC /* PerretesFashion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1E7A47204DCDC7007A8FDC /* Build configuration list for PBXNativeTarget "PerretesFashion" */;
+			buildPhases = (
+				3A1E7A18204DCDC6007A8FDC /* Sources */,
+				3A1E7A19204DCDC6007A8FDC /* Frameworks */,
+				3A1E7A1A204DCDC6007A8FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerretesFashion;
+			productName = PerretesFashion;
+			productReference = 3A1E7A1C204DCDC6007A8FDC /* PerretesFashion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A1E7A32204DCDC7007A8FDC /* PerretesFashionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1E7A4A204DCDC7007A8FDC /* Build configuration list for PBXNativeTarget "PerretesFashionTests" */;
+			buildPhases = (
+				3A1E7A2F204DCDC7007A8FDC /* Sources */,
+				3A1E7A30204DCDC7007A8FDC /* Frameworks */,
+				3A1E7A31204DCDC7007A8FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1E7A35204DCDC7007A8FDC /* PBXTargetDependency */,
+			);
+			name = PerretesFashionTests;
+			productName = PerretesFashionTests;
+			productReference = 3A1E7A33204DCDC7007A8FDC /* PerretesFashionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A1E7A3D204DCDC7007A8FDC /* PerretesFashionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1E7A4D204DCDC7007A8FDC /* Build configuration list for PBXNativeTarget "PerretesFashionUITests" */;
+			buildPhases = (
+				3A1E7A3A204DCDC7007A8FDC /* Sources */,
+				3A1E7A3B204DCDC7007A8FDC /* Frameworks */,
+				3A1E7A3C204DCDC7007A8FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A1E7A40204DCDC7007A8FDC /* PBXTargetDependency */,
+			);
+			name = PerretesFashionUITests;
+			productName = PerretesFashionUITests;
+			productReference = 3A1E7A3E204DCDC7007A8FDC /* PerretesFashionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A1E7A14204DCDC6007A8FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DAM2T1;
+				TargetAttributes = {
+					3A1E7A1B204DCDC6007A8FDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3A1E7A32204DCDC7007A8FDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A1E7A1B204DCDC6007A8FDC;
+					};
+					3A1E7A3D204DCDC7007A8FDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A1E7A1B204DCDC6007A8FDC;
+					};
+				};
+			};
+			buildConfigurationList = 3A1E7A17204DCDC6007A8FDC /* Build configuration list for PBXProject "PerretesFashion" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A1E7A13204DCDC6007A8FDC;
+			productRefGroup = 3A1E7A1D204DCDC6007A8FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A1E7A1B204DCDC6007A8FDC /* PerretesFashion */,
+				3A1E7A32204DCDC7007A8FDC /* PerretesFashionTests */,
+				3A1E7A3D204DCDC7007A8FDC /* PerretesFashionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1E7A1A204DCDC6007A8FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1E7A2D204DCDC6007A8FDC /* LaunchScreen.storyboard in Resources */,
+				3A1E7A2A204DCDC6007A8FDC /* Assets.xcassets in Resources */,
+				3A1E7A25204DCDC6007A8FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1E7A31204DCDC7007A8FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1E7A3C204DCDC7007A8FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1E7A18204DCDC6007A8FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1E7A22204DCDC6007A8FDC /* ViewController.swift in Sources */,
+				3A1E7A20204DCDC6007A8FDC /* AppDelegate.swift in Sources */,
+				3A1E7A28204DCDC6007A8FDC /* PerretesFashion.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1E7A2F204DCDC7007A8FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1E7A38204DCDC7007A8FDC /* PerretesFashionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A1E7A3A204DCDC7007A8FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1E7A43204DCDC7007A8FDC /* PerretesFashionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A1E7A35204DCDC7007A8FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A1E7A1B204DCDC6007A8FDC /* PerretesFashion */;
+			targetProxy = 3A1E7A34204DCDC7007A8FDC /* PBXContainerItemProxy */;
+		};
+		3A1E7A40204DCDC7007A8FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A1E7A1B204DCDC6007A8FDC /* PerretesFashion */;
+			targetProxy = 3A1E7A3F204DCDC7007A8FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A1E7A23204DCDC6007A8FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1E7A24204DCDC6007A8FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A1E7A2B204DCDC6007A8FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1E7A2C204DCDC6007A8FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A1E7A45204DCDC7007A8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A1E7A46204DCDC7007A8FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A1E7A48204DCDC7007A8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PerretesFashion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DAM2T1.PerretesFashion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A1E7A49204DCDC7007A8FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PerretesFashion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DAM2T1.PerretesFashion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A1E7A4B204DCDC7007A8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PerretesFashionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DAM2T1.PerretesFashionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerretesFashion.app/PerretesFashion";
+			};
+			name = Debug;
+		};
+		3A1E7A4C204DCDC7007A8FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PerretesFashionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DAM2T1.PerretesFashionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerretesFashion.app/PerretesFashion";
+			};
+			name = Release;
+		};
+		3A1E7A4E204DCDC7007A8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PerretesFashionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DAM2T1.PerretesFashionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerretesFashion;
+			};
+			name = Debug;
+		};
+		3A1E7A4F204DCDC7007A8FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PerretesFashionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DAM2T1.PerretesFashionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PerretesFashion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1E7A17204DCDC6007A8FDC /* Build configuration list for PBXProject "PerretesFashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1E7A45204DCDC7007A8FDC /* Debug */,
+				3A1E7A46204DCDC7007A8FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1E7A47204DCDC7007A8FDC /* Build configuration list for PBXNativeTarget "PerretesFashion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1E7A48204DCDC7007A8FDC /* Debug */,
+				3A1E7A49204DCDC7007A8FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1E7A4A204DCDC7007A8FDC /* Build configuration list for PBXNativeTarget "PerretesFashionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1E7A4B204DCDC7007A8FDC /* Debug */,
+				3A1E7A4C204DCDC7007A8FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1E7A4D204DCDC7007A8FDC /* Build configuration list for PBXNativeTarget "PerretesFashionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1E7A4E204DCDC7007A8FDC /* Debug */,
+				3A1E7A4F204DCDC7007A8FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A1E7A26204DCDC6007A8FDC /* PerretesFashion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A1E7A27204DCDC6007A8FDC /* PerretesFashion.xcdatamodel */,
+			);
+			currentVersion = 3A1E7A27204DCDC6007A8FDC /* PerretesFashion.xcdatamodel */;
+			path = PerretesFashion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A1E7A14204DCDC6007A8FDC /* Project object */;
+}
