@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A10EBE52077C9BD007C0EEB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A10EBE42077C9BD007C0EEB /* Profile.swift */; };
+		3A17203C2065628500E91DB6 /* MiCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17203B2065628500E91DB6 /* MiCelda.swift */; };
+		3A1720402065651B00E91DB6 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17203F2065651B00E91DB6 /* Table.swift */; };
 		3A1E7A20204DCDC6007A8FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A1F204DCDC6007A8FDC /* AppDelegate.swift */; };
 		3A1E7A22204DCDC6007A8FDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A21204DCDC6007A8FDC /* ViewController.swift */; };
 		3A1E7A25204DCDC6007A8FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E7A23204DCDC6007A8FDC /* Main.storyboard */; };
@@ -15,6 +18,19 @@
 		3A1E7A2D204DCDC6007A8FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A1E7A2B204DCDC6007A8FDC /* LaunchScreen.storyboard */; };
 		3A1E7A38204DCDC7007A8FDC /* PerretesFashionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A37204DCDC7007A8FDC /* PerretesFashionTests.swift */; };
 		3A1E7A43204DCDC7007A8FDC /* PerretesFashionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E7A42204DCDC7007A8FDC /* PerretesFashionUITests.swift */; };
+		3A58776820A71DDD00147623 /* DetallesPerrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58776720A71DDD00147623 /* DetallesPerrete.swift */; };
+		3A58776F20A7288700147623 /* PerreteFashion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58776D20A7288700147623 /* PerreteFashion+CoreDataClass.swift */; };
+		3A58777120A729DF00147623 /* PerreteFashion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58777020A729DF00147623 /* PerreteFashion+CoreDataProperties.swift */; };
+		3A58777520A731F500147623 /* EditPerreteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58777420A731F500147623 /* EditPerreteView.swift */; };
+		3A58777720A7382900147623 /* ShowEditPerretes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58777620A7382900147623 /* ShowEditPerretes.swift */; };
+		3A58777920A7462E00147623 /* DeletePerreteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58777820A7462E00147623 /* DeletePerreteView.swift */; };
+		3A77C0D5204DDA2B00C21E8C /* Categoria+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A77C0CF204DDA2B00C21E8C /* Categoria+CoreDataClass.swift */; };
+		3A77C0D6204DDA2B00C21E8C /* Categoria+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A77C0D0204DDA2B00C21E8C /* Categoria+CoreDataProperties.swift */; };
+		3A77C0D7204DDA2B00C21E8C /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A77C0D1204DDA2B00C21E8C /* User+CoreDataClass.swift */; };
+		3A77C0D8204DDA2B00C21E8C /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A77C0D2204DDA2B00C21E8C /* User+CoreDataProperties.swift */; };
+		3AD92264207BCF040017A40A /* AddPerrete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD92263207BCF040017A40A /* AddPerrete.swift */; };
+		3AD92266207BE90C0017A40A /* CollecCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD92265207BE90C0017A40A /* CollecCell.swift */; };
+		3AD9226A207BE9E90017A40A /* ShowPerretes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD92269207BE9E90017A40A /* ShowPerretes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A10EBE42077C9BD007C0EEB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		3A17203B2065628500E91DB6 /* MiCelda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCelda.swift; sourceTree = "<group>"; };
+		3A17203F2065651B00E91DB6 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 		3A1E7A1C204DCDC6007A8FDC /* PerretesFashion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerretesFashion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1E7A1F204DCDC6007A8FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A1E7A21204DCDC6007A8FDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +68,20 @@
 		3A1E7A3E204DCDC7007A8FDC /* PerretesFashionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerretesFashionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1E7A42204DCDC7007A8FDC /* PerretesFashionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerretesFashionUITests.swift; sourceTree = "<group>"; };
 		3A1E7A44204DCDC7007A8FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A58776720A71DDD00147623 /* DetallesPerrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesPerrete.swift; sourceTree = "<group>"; };
+		3A58776920A7264100147623 /* PerretesFashionMod.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerretesFashionMod.xcdatamodel; sourceTree = "<group>"; };
+		3A58776D20A7288700147623 /* PerreteFashion+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PerreteFashion+CoreDataClass.swift"; path = "../PerretesFashion 2/PerreteFashion+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3A58777020A729DF00147623 /* PerreteFashion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PerreteFashion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A58777420A731F500147623 /* EditPerreteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPerreteView.swift; sourceTree = "<group>"; };
+		3A58777620A7382900147623 /* ShowEditPerretes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowEditPerretes.swift; sourceTree = "<group>"; };
+		3A58777820A7462E00147623 /* DeletePerreteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePerreteView.swift; sourceTree = "<group>"; };
+		3A77C0CF204DDA2B00C21E8C /* Categoria+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categoria+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3A77C0D0204DDA2B00C21E8C /* Categoria+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categoria+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A77C0D1204DDA2B00C21E8C /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3A77C0D2204DDA2B00C21E8C /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3AD92263207BCF040017A40A /* AddPerrete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPerrete.swift; sourceTree = "<group>"; };
+		3AD92265207BE90C0017A40A /* CollecCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollecCell.swift; sourceTree = "<group>"; };
+		3AD92269207BE9E90017A40A /* ShowPerretes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPerretes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +112,12 @@
 		3A1E7A13204DCDC6007A8FDC = {
 			isa = PBXGroup;
 			children = (
+				3A58777020A729DF00147623 /* PerreteFashion+CoreDataProperties.swift */,
+				3A58776D20A7288700147623 /* PerreteFashion+CoreDataClass.swift */,
+				3A77C0CF204DDA2B00C21E8C /* Categoria+CoreDataClass.swift */,
+				3A77C0D0204DDA2B00C21E8C /* Categoria+CoreDataProperties.swift */,
+				3A77C0D1204DDA2B00C21E8C /* User+CoreDataClass.swift */,
+				3A77C0D2204DDA2B00C21E8C /* User+CoreDataProperties.swift */,
 				3A1E7A1E204DCDC6007A8FDC /* PerretesFashion */,
 				3A1E7A36204DCDC7007A8FDC /* PerretesFashionTests */,
 				3A1E7A41204DCDC7007A8FDC /* PerretesFashionUITests */,
@@ -106,6 +145,16 @@
 				3A1E7A2B204DCDC6007A8FDC /* LaunchScreen.storyboard */,
 				3A1E7A2E204DCDC6007A8FDC /* Info.plist */,
 				3A1E7A26204DCDC6007A8FDC /* PerretesFashion.xcdatamodeld */,
+				3A17203B2065628500E91DB6 /* MiCelda.swift */,
+				3A17203F2065651B00E91DB6 /* Table.swift */,
+				3A10EBE42077C9BD007C0EEB /* Profile.swift */,
+				3AD92263207BCF040017A40A /* AddPerrete.swift */,
+				3AD92265207BE90C0017A40A /* CollecCell.swift */,
+				3AD92269207BE9E90017A40A /* ShowPerretes.swift */,
+				3A58776720A71DDD00147623 /* DetallesPerrete.swift */,
+				3A58777820A7462E00147623 /* DeletePerreteView.swift */,
+				3A58777420A731F500147623 /* EditPerreteView.swift */,
+				3A58777620A7382900147623 /* ShowEditPerretes.swift */,
 			);
 			path = PerretesFashion;
 			sourceTree = "<group>";
@@ -262,9 +311,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A58776F20A7288700147623 /* PerreteFashion+CoreDataClass.swift in Sources */,
+				3A10EBE52077C9BD007C0EEB /* Profile.swift in Sources */,
+				3A17203C2065628500E91DB6 /* MiCelda.swift in Sources */,
+				3A77C0D6204DDA2B00C21E8C /* Categoria+CoreDataProperties.swift in Sources */,
+				3A58777120A729DF00147623 /* PerreteFashion+CoreDataProperties.swift in Sources */,
+				3A77C0D5204DDA2B00C21E8C /* Categoria+CoreDataClass.swift in Sources */,
+				3A58776820A71DDD00147623 /* DetallesPerrete.swift in Sources */,
+				3AD92264207BCF040017A40A /* AddPerrete.swift in Sources */,
 				3A1E7A22204DCDC6007A8FDC /* ViewController.swift in Sources */,
+				3A58777520A731F500147623 /* EditPerreteView.swift in Sources */,
+				3A58777720A7382900147623 /* ShowEditPerretes.swift in Sources */,
 				3A1E7A20204DCDC6007A8FDC /* AppDelegate.swift in Sources */,
+				3A77C0D7204DDA2B00C21E8C /* User+CoreDataClass.swift in Sources */,
+				3AD92266207BE90C0017A40A /* CollecCell.swift in Sources */,
 				3A1E7A28204DCDC6007A8FDC /* PerretesFashion.xcdatamodeld in Sources */,
+				3A77C0D8204DDA2B00C21E8C /* User+CoreDataProperties.swift in Sources */,
+				3A58777920A7462E00147623 /* DeletePerreteView.swift in Sources */,
+				3AD9226A207BE9E90017A40A /* ShowPerretes.swift in Sources */,
+				3A1720402065651B00E91DB6 /* Table.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +626,7 @@
 		3A1E7A26204DCDC6007A8FDC /* PerretesFashion.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				3A58776920A7264100147623 /* PerretesFashionMod.xcdatamodel */,
 				3A1E7A27204DCDC6007A8FDC /* PerretesFashion.xcdatamodel */,
 			);
 			currentVersion = 3A1E7A27204DCDC6007A8FDC /* PerretesFashion.xcdatamodel */;
